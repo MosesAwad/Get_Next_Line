@@ -1,5 +1,5 @@
 # Get_Next_Line
-This project involves designing a function that reads a line from a file (or the standard input). Calling the function again would read the next line and so on until the end of the file has been reached.
+This 42 School project involves designing a function that reads a line from a file (or the standard input). Calling the function again would read the next line and so on until the end of the file has been reached.
 The main challenge comes from the fact that the user can set the BUFFER_SIZE to whatever value they desire, as long as it is between 0 and INT_MAX. BUFFER_SIZE is how many bytes the read function reads
 at once. Thus, the user can choose a buffer size that is longer than the length of the line and the function should still NOT return anything after the '\n' instance and only return one line (even if the
 read function has read more bytes than the length of the line). The user can set the BUFFER_SIZE to the value that they desire either by using the flag -D BUFFER_SIZE='value' or by changing the Macro in 
